@@ -9,6 +9,7 @@ labels: bug
 **Expected behavior**
 
 **Versions**
+
 - vitest:
 - vitest-teamcity-reporter:
 - Node:
