@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach } from "vitest";
-import TeamCityReporter from "../src/index.js";
+import { TeamCityReporter } from "../src/index.js";
 
 function mockTestModule(overrides: Record<string, any> = {}) {
   return {

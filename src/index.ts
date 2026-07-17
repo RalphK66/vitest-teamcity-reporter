@@ -30,7 +30,7 @@ interface ConsoleEntry {
   stderr: string[];
 }
 
-export default class TeamCityReporter implements Reporter {
+export class TeamCityReporter implements Reporter {
   private root = process.cwd();
   private startedTests = new Set<string>();
   private startedSuites = new Set<string>();
@@ -161,5 +161,3 @@ export default class TeamCityReporter implements Reporter {
     });
   }
 }
-
-export { TeamCityReporter };
